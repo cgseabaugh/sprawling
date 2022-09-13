@@ -15,7 +15,7 @@ function Home(props){
                 <div className="flex-col home-left">
                     <div className="home-logo"></div>
                     <div className="flex-row home-menu">
-                        <Button buttonName="About" value="/about" className="primary-button" id="about-nav"/>
+                        
                     </div>
                     <div className="flex-row home-images">
                     <div className="flex-col home-bonfire">
@@ -31,8 +31,9 @@ function Home(props){
                         <p className="message-text">You've found a safe place to <span className="white-text">rest</span>.</p>
                         <p className="message-text">What would you like to do?</p>          
                     </div>
-                    <div className="home-right-play">
-                        <Button buttonName="" value="/rpg" className="home-play-button" id="rpg-nav"/>
+                    <div className="home-right-buttons">
+                        <Button buttonName="About" value="/about" className="primary-button" id="about-nav"/>
+                        <Button buttonName="Game" value="/rpg" className="primary-button" id="rpg-nav"/>
                     </div>
                 </div>
             </div>

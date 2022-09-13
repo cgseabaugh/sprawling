@@ -10,14 +10,13 @@ button{
 .button{
     display: flex;
     justify-content: center;
-    margin: 4rem;
+    margin: 6rem;
     width: auto;
     height: auto;
     text-align: center;
     border-radius: 5px;
-    background-image: url("https://p1.pxfuel.com/preview/519/955/777/wall-stone-texture-brick.jpg");
+    padding: 1rem;
     background-size: cover;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.74);
 }
 
 .button button:hover{
@@ -26,31 +25,17 @@ button{
 }
 
 .primary-button{
-    font-size: 1.5rem;
+    font-size: 3rem;
     font-family: 'Press Start 2P', cursive;
     color: white;
     background-color: transparent;
     border: none;
     margin: 5%;
-}
-
-.home-play-button{
-    font-size: 1.5rem;
-    font-family: 'Press Start 2P', cursive;
-    color: white;
-    background-color: transparent;
-    border: none;
-    background-image: url("../assets/PLAY1b.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 10rem;
-    width: 20rem;
-    border-radius: 5px;
-}
-
-.home-play-button:hover{
-    cursor: pointer;
-    background-image: url("../assets/PLAY2b.gif");
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 10px;
+    border: 5px solid rgb(194, 176, 77);
+    text-align: center;
 }
 
 .profile-button{

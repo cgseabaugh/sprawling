@@ -8,10 +8,11 @@ function About(){
     return(
         <div className="flex-row about-page">
             <div className="flex-col about-menu">
-                <div className="flex-row back-home">
-                    <div className="back-home-button"><Link className="back-home-button-link" to="/">Return home</Link></div>
-                </div>
-                <div className="flex-row accordions">
+                <p className="page-text">Sprawling RPG was made and continuously worked on by myself, Gabe Seabaugh.</p>
+                <p className="page-text">It's been a tool for me to learn and practice the languages that make the game up, primarily HTML, CSS, and JavaScript.</p>
+                <p className="page-text">I submitted this game as my Capstone project for graduating a Full Stack JavaScript Software Development program.</p>
+                <p className="page-text">If you're interested in learning more about me or seeing some of my other work, please visit my website at <a href="gabeseabaugh.com">Gabeseabaugh.com</a></p>
+                {/* <div className="flex-row accordions">
                     <Accordion 
                         title="Completed" 
                         content="<p>
@@ -32,7 +33,7 @@ function About(){
                             <b>3,</b> Stats increase on level-up based on 'Profession'
                         </p>"
                     />
-                </div>
+                </div> */}
             </div>
             <div className="flex-row about-images">
                 <div className="cave-knight"></div>

@@ -10,10 +10,21 @@
     background-size: cover;
 }
 
+.page-text{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5rem;
+    color: white;
+    margin: 2rem;
+}
+
 .about-menu{
     width: 60%;
-    height: 100%;
-    
+    height: auto;
+    margin: 10rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3rem;
+    border-radius: 10px;
+    border: 5px solid rgb(194, 176, 77);
 }
 
 .about-images{
@@ -22,32 +33,11 @@
     
 }
 
-.back-home{
-    height: 20%;
-}
-
 button{
     background-color: none;
 }
 
-.back-home-button{
-    width: 20vw;
-    height: 5vh;
-    margin-top: 7vh;
-    margin-left: 6vw;
-}
 
-.back-home-button-link{
-    text-decoration: none;
-    font-family: 'Press Start 2P', cursive;
-    font-size: 2rem;
-    color: white;
-}
-
-.back-home-button-link:hover{
-    color: red;
-    cursor: pointer;
-}
 
 .accordions{
     display: flex;
